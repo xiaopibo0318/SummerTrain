@@ -1,0 +1,111 @@
+#node-border {
+    background-color: rgb(67, 67, 67);
+    border-left-color: rgb(224, 83, 83);
+    border-right-color: rgb(224, 83, 83);
+    border-top-color: rgb(224, 83, 83);
+    border-bottom-color: rgb(224, 83, 83);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#input {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#selection-border {
+    border-left-color: rgb(83, 255, 176);
+    border-right-color: rgb(83, 255, 176);
+    border-top-color: rgb(83, 255, 176);
+    border-bottom-color: rgb(83, 255, 176);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.node {
+    min-width: 150px;
+    min-height: auto;
+}
+
+#output {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#title {
+    -unity-font-style: bold;
+    font-size: 14px;
+}
+
+#divider {
+    background-color: rgb(93, 212, 250);
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+}
+
+.edge {
+    background-color: rgb(177, 255, 95);
+    opacity: 1;
+    align-items: center;
+    -unity-background-image-tint-color: rgb(113, 255, 109);
+}
+
+.action #input {
+    background-color: rgb(255, 49, 15);
+}
+
+.composite #input {
+    background-color: rgb(55, 255, 18);
+}
+
+.root #input {
+    background-color: rgb(229, 207, 55);
+}
+
+.decorate #input {
+    background-color: rgb(87, 119, 229);
+}
+
+.end #input {
+    background-color: rgba(255, 255, 255, 255);
+}
+
+#node-state {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(125, 231, 206);
+}
+
+.running #node-state {
+    background-color: rgb(253, 243, 75);
+}
+
+.success #node-state {
+    background-color: rgb(253, 64, 255);
+}
+
+.failure #node-state {
+}
+
+.composite #AddChoiceButton {
+    visibility: visible;
+    display: flex;
+}

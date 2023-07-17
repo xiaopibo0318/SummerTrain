@@ -1,0 +1,697 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8983085293907521602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 7883e0cfc39286747879671fef898077
+  position: {x: 457.59995, y: 706.39996}
+  description: F4
+  children:
+  - {fileID: -6796709449771301816}
+  storyImage: {fileID: 21300000, guid: 9dd4d2a622a68564ea1a993e1c3ff622, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: c3c198544d328a94b9dfaa3a8135b951, type: 3}
+  dialogueText: []
+  optionList: []
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &-8822629438112390599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 61a00971a8ddf0445ac76bffa062b612
+  position: {x: 374.40005, y: 253.43755}
+  description: D3
+  children:
+  - {fileID: 8628529346773780272}
+  storyImage: {fileID: 21300000, guid: e92dd6598d7141b49a0b97860928f7d5, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 4080085f48f86fa458307f7e37fd506e, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u5206\u624B"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &-8340293172705957039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: b9afb55e89f69b1428b3e575aab8feb4
+  position: {x: -216.79999, y: 480.34253}
+  description: E1
+  children:
+  - {fileID: 654347920517998992}
+  - {fileID: 3862647567447899018}
+  storyImage: {fileID: 21300000, guid: 3eb43077f5667224eba52d49b8d5d537, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 1affd5571f5bbe743a652c45d969515f, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u8B8A\u5F97\u6D88\u6C89"
+  - "\u8D70\u51FA\u9670\u973E"
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: 209fa65f8eafba446930220fe8cd321e, type: 3}
+--- !u!114 &-7424214738254917598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 3f7d52a483dfbc54fbfab4f041a89242
+  position: {x: 239.99998, y: 909.1956}
+  description: G2
+  children:
+  - {fileID: 6664150860297129567}
+  storyImage: {fileID: 21300000, guid: ecd7d4236db406942a3af1f6a63b0e41, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: cd54f5aba1f73f14bbeae6153a112438, type: 3}
+  dialogueText: []
+  optionList: []
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: eaa97d8cd4d55a4418a60a4a89215d2d, type: 3}
+--- !u!114 &-7020723899094810574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 4ba8d3329e715284e92cd513351ae219
+  position: {x: 232.00002, y: 706.39996}
+  description: F3
+  children:
+  - {fileID: -7424214738254917598}
+  storyImage: {fileID: 21300000, guid: 1215d5f3ea1982543ac273c4ecc2820c, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 0f5a299495c58c94fbe1850e18bee8ac, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u5B88\u8B77\u8005"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &-6796709449771301816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d20aa898e13654080b4ad6e3e777c9, type: 3}
+  m_Name: EndNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 1766e233ac4d87d41b0065031844e2a3
+  position: {x: 465.59998, y: 916.7999}
+  description: END_F4
+  children: []
+  finalImage: {fileID: 21300000, guid: 8d9bb90bd9a9c454085826e10bdd4b86, type: 3}
+--- !u!114 &-5611326895148571165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 31b2e53a452abe34ca06e6fc895f1aa5
+  position: {x: -149.67084, y: 261.59998}
+  description: D1
+  children:
+  - {fileID: -8340293172705957039}
+  - {fileID: 4866185082967427283}
+  storyImage: {fileID: 21300000, guid: d15403e68b4e61d46b039fbe3fd4db45, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 1b318d88c5c9c754ab772d5e339ec65c, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u610F\u5916\u7684\u6D88\u606F"
+  - "\u932F\u6115\u7684\u6D88\u606F"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &-4875740939724093486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 28e0b49f85b59514b85343f0e62ed78f
+  position: {x: -216.80016, y: 914.27563}
+  description: G1
+  children:
+  - {fileID: 7608171899292613083}
+  storyImage: {fileID: 21300000, guid: eafac2e9f83d3694cb6ea61cc289432b, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 51a3a2166fcd73c448613dc9d722410c, type: 3}
+  dialogueText: []
+  optionList: []
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: eaa97d8cd4d55a4418a60a4a89215d2d, type: 3}
+--- !u!114 &-4441574323051255511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 53bfe5bb0191ada46a4cbea642e6bddd
+  position: {x: 123.9975, y: 21.599964}
+  description: C2
+  children:
+  - {fileID: -5611326895148571165}
+  - {fileID: -1466913362741011612}
+  storyImage: {fileID: 21300000, guid: bc4e413fb69485b4686e07eee19ae96f, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 39a625ada8da3e84e9ca3c0e3f84e9bd, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u81EA\u6211\u5BE6\u73FE"
+  - "\u8DDF\u96A8\u5979"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &-4025317760399762008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 1
+  guid: a05e6c18501fca6428bd19ad711ad826
+  position: {x: 91.200035, y: -422.09}
+  description: A
+  children:
+  - {fileID: 6479192450753721763}
+  - {fileID: 4926518576225899656}
+  storyImage: {fileID: 21300000, guid: aa03b854d65a25449bbf0b11714fbba4, type: 3}
+  isFinished: 0
+  isStarted: 1
+  storyFile: {fileID: 4900000, guid: 74891de3a90205b44bb7efc9c08e39c3, type: 3}
+  dialogueText:
+  - "\u90A3\u6642\uFF0C2005\u5E74\uFF0C\u590F\u81F3\u3002\r"
+  - "\u963F\u51F116\u6B72\uFF0C\u9298\u9580\u9AD8\u4E2D\u4E00\u5E74\u7D1A\u3002\r"
+  - "\u6BCF\u65E5\u65E9\u73ED\u7684\u96FB\u8ECA\uFF0C\u7E3D\u6709\u4ED6\u7684\u8EAB\u5F71\u3002\r"
+  - "\u5C31\u7B97\u5230\u4E86\u6691\u5047\uFF0C\u4ED6\u9084\u662F\u5929\u5929\u5F80K\u66F8\u4E2D\u5FC3\u79FB\u52D5\uFF0C\u70BA\u7684\u662F\uFF0C\u5B8C\u6210\u81EA\u5DF1\u7684\u5922\u60F3\u3002\r"
+  - "\u96FB\u8ECA\u88E1\uFF0C\u9084\u6709\u53E6\u4E00\u500B\u5979\u3002\r"
+  - "\u7E3D\u662F\u7AD9\u5728\u96FB\u8ECA\u7684\u89D2\u843D\uFF0C\u7FFB\u8457\u82F1\u6587\u55AE\u5B57\u7684\u5C0F\u518A\u3002\r"
+  - "\u6BCF\u65E5\u90FD\u662F\u540C\u4E00\u73ED\u96FB\u8ECA\uFF0C\u540C\u4E00\u500B\u8ECA\u5EC2\u3002\r"
+  - "\u963F\u51F1\u7684\u96D9\u773C\uFF0C\u5DF2\u7D93\u6F38\u6F38\u88AB\u5979\u7D66\u5438\u5F15\u4E86\u3002\r"
+  - "\u5922\u60F3\u96D6\u7136\u4EE4\u4EBA\u56AE\u5F80\uFF0C\u4F46\u5979\u90A3\u88AB\u967D\u5149\u7167\u5F97\u8000\u773C\u7684\u9577\u9AEE\uFF0C\u66F4\u5F15\u4EBA\u6CE8\u76EE\u3002\r"
+  - "\u67D0\u65E5\uFF0C\u963F\u51F1\u5728\u6708\u53F0\u7B49\u8ECA\u6642\uFF0C\u5979\u5C31\u7AD9\u5728\u773C\u524D\u3002\r"
+  - "\u5979\u4E5F\u6CE8\u610F\u5230\u4E86\u4ED6\uFF0C\u4F46\u773C\u795E\u4E2D\u4E26\u6C92\u6709\u4ED6\u7684\u8EAB\u5F71\uFF0C\u53EA\u662F\u770B\u4E86\u4E00\u773C\u3002\r"
+  - "\u5973\u5B69\u7684\u6771\u897F\u6389\u4E86\uFF0C\u5C31\u5728\u5979\u6B63\u8981\u8DE8\u9032\u8ECA\u5EC2\u7684\u6642\u5019\uFF0C\u90A3\u662F\u5979\u7684\u82F1\u6587\u55AE\u5B57\u5C0F\u518A\u3002\r"
+  optionList:
+  - "\u64BF\u8D77\u4F86\u9084\u5979"
+  - "\u64BF\u8D77\u4F86\u6536\u8457"
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: 82c6aed6c56351043a3c1fd04629ba17, type: 3}
+--- !u!114 &-3448731677957465381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: d4632832521a9c44d9fb8d14bc72fed1
+  position: {x: 250.87137, y: 488.00003}
+  description: E3
+  children:
+  - {fileID: 3862647567447899018}
+  - {fileID: -7020723899094810574}
+  - {fileID: -8983085293907521602}
+  storyImage: {fileID: 21300000, guid: ddce89355a47e37458d51973a8fc664e, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 70cd2a5ef994703409d4f43fbf3a8a6a, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u8D70\u51FA\u9670\u973E"
+  - "\u653E\u4E0B\u4E00\u5207"
+  - "\u62EF\u6551"
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: 209fa65f8eafba446930220fe8cd321e, type: 3}
+--- !u!114 &-1466913362741011612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 0057013c511697b4badda3ad66d75ffb
+  position: {x: 108.399956, y: 261.60004}
+  description: D2
+  children:
+  - {fileID: 4866185082967427283}
+  - {fileID: -3448731677957465381}
+  storyImage: {fileID: 21300000, guid: 4fc231b76af76f849bfc477702864272, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 550a690cae73639419784076e476ab23, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u932F\u6115\u7684\u6D88\u606F"
+  - "\u6D88\u6C89\u7684\u60C5\u7DD2"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14aef80817606b4c855813444f6e6f9, type: 3}
+  m_Name: MainStoryTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 141061471049982717}
+  treeState: 0
+  nodes:
+  - {fileID: 141061471049982717}
+  - {fileID: -4025317760399762008}
+  - {fileID: 6479192450753721763}
+  - {fileID: 4926518576225899656}
+  - {fileID: 7681026171254990894}
+  - {fileID: 4075816105566802166}
+  - {fileID: -4441574323051255511}
+  - {fileID: -5611326895148571165}
+  - {fileID: -1466913362741011612}
+  - {fileID: -8822629438112390599}
+  - {fileID: -8340293172705957039}
+  - {fileID: 4866185082967427283}
+  - {fileID: -3448731677957465381}
+  - {fileID: 8628529346773780272}
+  - {fileID: 654347920517998992}
+  - {fileID: 3862647567447899018}
+  - {fileID: -7020723899094810574}
+  - {fileID: -8983085293907521602}
+  - {fileID: -7424214738254917598}
+  - {fileID: -4875740939724093486}
+  - {fileID: 7608171899292613083}
+  - {fileID: 4290727614095072380}
+  - {fileID: 6664150860297129567}
+  - {fileID: -6796709449771301816}
+--- !u!114 &141061471049982717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754f0399bb729af449c6fb109a34ba5b, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 96639bfa26f9a614a952cef9ee1b92e3
+  position: {x: 91.2, y: -590.6834}
+  description: 
+  child: {fileID: -4025317760399762008}
+  isStarted: 0
+--- !u!114 &654347920517998992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: f15672a6cc3651f4cb0d1b64aacb175c
+  position: {x: -216.80002, y: 698.2174}
+  description: F1
+  children:
+  - {fileID: -4875740939724093486}
+  storyImage: {fileID: 21300000, guid: fb55884ecba1c9441b399c216b3699e4, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 67a91fc0d7bf6dd4dbb83da16dc89295, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u6700\u5F8C\u7684\u6EAB\u67D4"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &3862647567447899018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: f21ff850977f525428728bf0e2b5012f
+  position: {x: 8.800083, y: 706.4001}
+  description: F2
+  children:
+  - {fileID: 4290727614095072380}
+  storyImage: {fileID: 21300000, guid: 638764d0053f9ba4c968d9b6ec790966, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 653ed5b457979174c90534c6c2468944, type: 3}
+  dialogueText: []
+  optionList: []
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &4075816105566802166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: a2f208cf9b63cdf4c9b353c20eb177e6
+  position: {x: -133.59999, y: 21.599964}
+  description: C1
+  children:
+  - {fileID: -5611326895148571165}
+  - {fileID: -1466913362741011612}
+  storyImage: {fileID: 21300000, guid: bc4e413fb69485b4686e07eee19ae96f, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: ee927c7be8ffdcf4b822d11e9180ef74, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u81EA\u6211\u5BE6\u73FE"
+  - "\u8DDF\u96A8\u5979"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &4290727614095072380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d20aa898e13654080b4ad6e3e777c9, type: 3}
+  m_Name: EndNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 2309ff67099349242b66ce9c7e94fe88
+  position: {x: 16.800049, y: 922.3999}
+  description: END_F2
+  children: []
+  finalImage: {fileID: 21300000, guid: e40b6547bb07fe04db64b826cc31ca8f, type: 3}
+--- !u!114 &4866185082967427283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 765ff4de7cf7215498f0e3e9ec5402b6
+  position: {x: 24.800009, y: 488.00006}
+  description: E2
+  children:
+  - {fileID: 3862647567447899018}
+  storyImage: {fileID: 21300000, guid: 3eb43077f5667224eba52d49b8d5d537, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: f18591ee60606a744ae159936bd7c04d, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u8D70\u51FA\u9670\u973E"
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: 209fa65f8eafba446930220fe8cd321e, type: 3}
+--- !u!114 &4926518576225899656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 0a250e8ad9f7fe64c801d53cedeeca12
+  position: {x: 224.80002, y: -199.19994}
+  description: B2
+  children:
+  - {fileID: -4441574323051255511}
+  - {fileID: 7681026171254990894}
+  storyImage: {fileID: 21300000, guid: 39d4291541efab742b91f4c5bbfb8d3d, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: da2af6c4cd23a26449bfd8b2b45262f2, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u8A66\u8457\u8868\u767D"
+  - "\u4FDD\u6301\u95DC\u4FC2"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &6479192450753721763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: cd323cf849febca4e9c508d385a89232
+  position: {x: 8, y: -206.79999}
+  description: B1
+  children:
+  - {fileID: 4075816105566802166}
+  - {fileID: -4441574323051255511}
+  storyImage: {fileID: 21300000, guid: fe5bf3f8861105149b5612fce60c7d99, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 84fdbb4519be3d84aa99f704e727b81a, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u8868\u767D"
+  - "\u8A66\u8457\u8868\u767D"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &6664150860297129567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d20aa898e13654080b4ad6e3e777c9, type: 3}
+  m_Name: EndNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 960135aceca868b438d4e0310e6e0d9b
+  position: {x: 240, y: 1112.7999}
+  description: END_G2
+  children: []
+  finalImage: {fileID: 21300000, guid: 3aeff9f83f1621b4a8f43f46822a3730, type: 3}
+--- !u!114 &7608171899292613083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d20aa898e13654080b4ad6e3e777c9, type: 3}
+  m_Name: EndNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: db2f39b6b5629624e839690e8a88a78a
+  position: {x: -208.80003, y: 1105.15}
+  description: END_G1
+  children: []
+  finalImage: {fileID: 21300000, guid: 4b6433cf17d40f1498e8cdc087689362, type: 3}
+--- !u!114 &7681026171254990894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 83fd8e22ad23d9e4fb12d49136cf5ae9
+  position: {x: 367.165, y: 29.600004}
+  description: C3
+  children:
+  - {fileID: -8822629438112390599}
+  storyImage: {fileID: 21300000, guid: 5547d749b71d9724e8703a4b1e026ec0, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: d6b2a52eb5567174dafa5cc8d0aa2a89, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u56DE\u61C9"
+  chooseEdge: 0
+  bgm: {fileID: 0}
+--- !u!114 &8628529346773780272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7560f716c2ee2c44ab1dc9db28f0a12e, type: 3}
+  m_Name: StoryNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  guid: 51e7740d948eaac4397e7fc0c4dfb8b0
+  position: {x: 465.59998, y: 495.99997}
+  description: E4
+  children:
+  - {fileID: -8983085293907521602}
+  storyImage: {fileID: 21300000, guid: ae02b52449f50944e8b41e2d499a9031, type: 3}
+  isFinished: 0
+  isStarted: 0
+  storyFile: {fileID: 4900000, guid: 6a3bbf5956d3bfb469eec24c67599a4d, type: 3}
+  dialogueText: []
+  optionList:
+  - "\u653E\u4E0B\u4E00\u5207"
+  - "\u62EF\u6551"
+  chooseEdge: 0
+  bgm: {fileID: 8300000, guid: 209fa65f8eafba446930220fe8cd321e, type: 3}

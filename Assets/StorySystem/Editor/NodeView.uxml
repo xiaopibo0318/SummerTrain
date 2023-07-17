@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StorySystem/Editor/NodeView.uss?fileID=7433441132597879392&amp;guid=b055bb3c16cef734c9c17d946711f21e&amp;type=3#NodeView" />
+    <ui:VisualElement name="node-state" style="border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;" />
+    <ui:VisualElement name="node-border" style="color: rgb(89, 89, 89);">
+        <ui:VisualElement name="contents">
+            <ui:VisualElement name="divider" class="horizontal" />
+            <ui:VisualElement name="top">
+                <ui:VisualElement name="input" style="align-items: center;" />
+                <SplitView fixed-pane-initial-dimension="90" style="height: 40px;">
+                    <ui:VisualElement name="title">
+                        <ui:Label name="title-label" text="RepeatNode" class="unity-text-element unity-label" style="border-left-color: rgb(255, 47, 47); border-right-color: rgb(255, 47, 47); border-top-color: rgb(255, 47, 47); border-bottom-color: rgb(255, 47, 47); background-color: rgb(180, 180, 180);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="title-button-container">
+                        <ui:Button text="Add&#10;Choice" display-tooltip-when-elided="true" name="AddChoiceButton" binding-path="AddChoisePort" style="opacity: 1; visibility: visible;" />
+                        <ui:VisualElement name="collapse-button" style="visibility: visible;">
+                            <ui:VisualElement name="icon" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </SplitView>
+                <ui:VisualElement name="divider" class="vertical" />
+                <ui:Label text="&#10;" display-tooltip-when-elided="true" name="description" style="color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0); font-size: 14px; height: 52px;" />
+                <ui:VisualElement name="divider" class="vertical" style="height: -12px;" />
+                <ui:VisualElement name="output" style="align-items: center; justify-content: flex-end;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" style="-unity-text-outline-color: rgb(255, 255, 255);" />
+</ui:UXML>

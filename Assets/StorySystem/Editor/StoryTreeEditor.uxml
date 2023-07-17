@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StorySystem/Editor/StoryTreeEditor.uss?fileID=7433441132597879392&amp;guid=94bd2cd2d4aa9874092ed8cdb5fb5567&amp;type=3#StoryTreeEditor" />
+    <SplitView fixed-pane-initial-dimension="124">
+        <ui:VisualElement name="left">
+            <ui:Label text="Inspector" display-tooltip-when-elided="true" name="Inspector" style="background-color: rgb(91, 91, 91); font-size: 12px;" />
+            <InspectorView />
+        </ui:VisualElement>
+        <ui:VisualElement name="right">
+            <ui:Label text="StoryTree" display-tooltip-when-elided="true" />
+            <StoryTreeView focusable="true" name="StoryTreeView" tabindex="3" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </SplitView>
+</ui:UXML>
