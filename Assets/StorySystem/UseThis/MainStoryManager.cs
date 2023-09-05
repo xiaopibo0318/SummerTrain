@@ -22,7 +22,7 @@ public class MainStoryManager : Singleton<MainStoryManager>
     private EndNode nowEndNode;
     private bool textFinished;
     private Coroutine nowCoroutine = null;
-    int index = 0;
+    private int index = 0;
     private bool isEndInStory = false;
     private bool isFin = false;
 
@@ -45,14 +45,12 @@ public class MainStoryManager : Singleton<MainStoryManager>
                     nowEndNode.Update();
                 }
                 if (AudioStoryManager.Instance != null) { AudioStoryManager.Instance.PlayButtonClickAudio(); }
-
             });
         }
-        signalText.text = "";
-        textFinished = true;
+
         nextButton.onClick.AddListener(() => GoToNextDialogue());
-        StoryTreeRunner.Instance.UpdateNowNode();
-        UpdateNowNode();
+
+        ResetStory();
     }
 
     IEnumerator StartTypingText()
@@ -211,6 +209,21 @@ public class MainStoryManager : Singleton<MainStoryManager>
         {
             endingImage.gameObject.SetActive(true);
         }
+    }
+
+    public void ResetStory()
+    {
+        signalText.text = "";
+        textFinished = true;
+        isFin = false;
+        isEndInStory = false;
+        index= 0;
+        if (endingImage != null)
+        {
+            endingImage.gameObject.SetActive(false);
+        }
+        StoryTreeRunner.Instance.UpdateNowNode();
+        UpdateNowNode();
     }
 
 }

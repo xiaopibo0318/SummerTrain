@@ -127,7 +127,7 @@ MonoBehaviour:
   state: 1
   started: 0
   guid: 4ba8d3329e715284e92cd513351ae219
-  position: {x: 232.00002, y: 706.39996}
+  position: {x: 248.00012, y: 706.39996}
   description: F3
   children:
   - {fileID: -7424214738254917598}
@@ -157,8 +157,8 @@ MonoBehaviour:
   guid: 1766e233ac4d87d41b0065031844e2a3
   position: {x: 465.59998, y: 916.7999}
   description: END_F4
-  children: []
   finalImage: {fileID: 21300000, guid: 8d9bb90bd9a9c454085826e10bdd4b86, type: 3}
+  isFinished: 0
 --- !u!114 &-5611326895148571165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,8 +510,8 @@ MonoBehaviour:
   guid: 2309ff67099349242b66ce9c7e94fe88
   position: {x: 16.800049, y: 922.3999}
   description: END_F2
-  children: []
   finalImage: {fileID: 21300000, guid: e40b6547bb07fe04db64b826cc31ca8f, type: 3}
+  isFinished: 0
 --- !u!114 &4866185082967427283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,7 +585,7 @@ MonoBehaviour:
   state: 1
   started: 0
   guid: cd323cf849febca4e9c508d385a89232
-  position: {x: 8, y: -206.79999}
+  position: {x: 24.000048, y: -207.33627}
   description: B1
   children:
   - {fileID: 4075816105566802166}
@@ -617,8 +617,8 @@ MonoBehaviour:
   guid: 960135aceca868b438d4e0310e6e0d9b
   position: {x: 240, y: 1112.7999}
   description: END_G2
-  children: []
   finalImage: {fileID: 21300000, guid: 3aeff9f83f1621b4a8f43f46822a3730, type: 3}
+  isFinished: 0
 --- !u!114 &7608171899292613083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,8 +636,8 @@ MonoBehaviour:
   guid: db2f39b6b5629624e839690e8a88a78a
   position: {x: -208.80003, y: 1105.15}
   description: END_G1
-  children: []
   finalImage: {fileID: 21300000, guid: 4b6433cf17d40f1498e8cdc087689362, type: 3}
+  isFinished: 0
 --- !u!114 &7681026171254990894
 MonoBehaviour:
   m_ObjectHideFlags: 0

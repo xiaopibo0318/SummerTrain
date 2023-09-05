@@ -9,10 +9,18 @@ public class StoryTreeRunner : Singleton<StoryTreeRunner>
     public StoryTree tree;
     private Node nowNode;
 
+    //private StoryTree cloneOriginTree;
+
     private void Start()
     {
         tree = tree.Clone();
+        //TimeManager.Instance.Delay(.5f, CloneOriginTree);
     }
+
+    //private void CloneOriginTree()
+    //{
+    //    cloneOriginTree = tree;
+    //}
 
     private void Update()
     {
@@ -68,9 +76,24 @@ public class StoryTreeRunner : Singleton<StoryTreeRunner>
         foreach (var child in tree.nodes)
         {
             child.started = false;
+            if (child is StoryNode)
+            {
+                var storyChild = (StoryNode)child;
+                storyChild.started = false;
+                storyChild.isFinished = false;
+            }
+            else if (child is EndNode)
+            {
+                var endNode = (EndNode)child;
+                endNode.started = false;
+                endNode.isFinished = false;
+            }
             child.state = Node.State.Failure;
         }
         tree.rootNode.state = Node.State.Running;
+        MainStoryManager.Instance.ResetStory();
+        //tree = cloneOriginTree;
+        //tree = tree.Clone();
     }
 
 

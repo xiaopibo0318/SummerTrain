@@ -16,7 +16,8 @@ public class EndNode : Node
 
     protected override void OnStop()
     {
-        StoryTreeRunner.Instance.RefreshTree();
+        TimeManager.Instance.Delay(.05f, StoryTreeRunner.Instance.RefreshTree);
+
     }
 
     protected override State OnUpdate()
