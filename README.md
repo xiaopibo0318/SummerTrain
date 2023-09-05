@@ -20,8 +20,8 @@ OptionList:顯示地選項
 BGM:該節點的音樂  
 
 顯示畫面：  
-![顯示畫面](/GH_PIC/storyView.jpg "顯示畫面")  
+![](/GH_PIC/storyView.jpg "顯示畫面")  
 
 選項畫面：  
-![選項畫面](/GH_PIC/optionView.jpg "選項畫面")
+![](/GH_PIC/optionView.jpg "選項畫面")
 
