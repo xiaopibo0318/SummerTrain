@@ -19,7 +19,7 @@ StoryFile:文字檔案(CSV) 可將CSV檔案自動轉換
 OptionList:顯示地選項  
 BGM:該節點的音樂  
   
-![顯示畫面](/GH_PIC/storyView "圖片 Title")  
+![顯示畫面](/GH_PIC/storyView.jpg "圖片 Title")  
   
-![選項畫面](/GH_PIC/optionView "圖片 Title")
+![選項畫面](/GH_PIC/optionView.jpg "圖片 Title")
 
